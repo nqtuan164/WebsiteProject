@@ -3,6 +3,7 @@
 var dragSrcEl = null;
 
 function handleDragStart(e) {
+    // this / e.target is the source node
     this.style.opacity = '0.6';
     
     dragSrcEl = this;
