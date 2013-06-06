@@ -1,0 +1,240 @@
+﻿@charset "utf-8";
+
+/*
+ * RESET ANY ELEMENTS
+ */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+     border: 0pt none;
+     font: inherit;
+     margin: 0pt;
+     padding: 0pt;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+     display: block;
+}
+
+body {
+     line-height: 1;
+}
+
+ol, ul {
+     list-style: none outside none;
+}
+
+blockquote, q {
+     quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+     content: none;
+}
+
+table {
+     border-collapse: collapse;
+     border-spacing: 0pt;
+}
+a{
+	text-decoration:none;
+}
+
+.clearfix:before,
+    .clearfix:after,
+    .row:before,
+    .row:after {
+      content: '.';
+      display: block;
+      overflow: hidden;
+      visibility: hidden;
+      width: 0;
+      height: 0; }
+    .row:after,
+    .clearfix:after {
+      clear: both; }
+    .row,
+    .clearfix {
+      zoom: 1; }
+
+.clear {
+  clear: both;
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+
+/*
+ * GENERAL 
+ */
+body {
+    background-color:rgba(255, 255, 255, 1);
+    font-family:'helvetica Neue','helvetica',arial,sans-serif;
+    font-size: 12px;
+    color: rgba(119, 119, 119, 1);
+}
+
+a {
+    color: rgba(0, 46, 70, 1);
+    
+    -webkit-transition: all 0.4s ease;
+       -moz-transition: all 0.4s ease;
+        -ms-transition: all 0.4s ease;
+         -o-transition: all 0.4s ease;
+            transition: all 0.4s ease;
+}
+
+p {
+    line-height: 23px;
+}
+
+/*
+ * LAYOUT
+ */
+
+.wrap {
+    width: 940px;
+    margin: auto;
+}
+
+.float-3 {
+    width: 31.91489362%; /*900 / 3 / 940 * 100*/
+    float: left;
+    margin-right: 2.127659574%; 
+}
+
+    .float-3:nth-child(3n) {
+        margin-right:0px;
+    }
+
+/*
+ * TOP HEADER
+ */
+#top-header {
+    border-top:5px solid rgba(16, 167, 155, 1);
+}
+
+    .top-header .wrap {
+        border: 1px dotted rgba(255, 255, 255, 1);
+        border-top: none;
+        position: relative;
+    }
+
+    .top-header p {
+        color: rgba(85, 85, 85, 1);
+        text-indent: 10px;
+        line-height: 30px;
+        font-style: italic;
+        float: left;
+    }
+
+.social {
+    float: right;
+}
+
+    .social li {
+        display: inline;
+    }
+
+    .social a {
+        float: left;
+        display: block;
+        width: 30px;
+        height: 30px;
+        border-left: 1px dotted rgba(255, 255, 255, 1);
+        background-repeat: no-repeat;
+        background-color: rgba(255, 255, 255, 1);
+        background-position: top left;
+    }
+
+    .social li:nth-child(1) a {
+        background-image: url(../img/facebook.png);
+    }
+    .social li:nth-child(2) a {
+        background-image:url(../img/twitter.png);
+    }
+
+    .social li:nth-child(3) a {
+        background-image:url(../img/pinterest.png);
+    }
+
+    .social li:nth-child(4) a {
+        background-image:url(../img/dribbble.png);
+    }
+
+    .social li:nth-child(5) a {
+        background-image:url(../img/flickr.png);
+    }
+
+    .social li:nth-child(6) a {
+        background-image:url(../img/rss.png);
+    }
+
+    .social a:hover {
+        background-position: top right;
+    }
+    .social li:nth-child(1):hover a{
+        background-color:#636fa8;
+    }
+
+    .social li:nth-child(2):hover a{
+        background-color:#20dff0;
+    }
+
+    .social li:nth-child(3):hover a{
+        background-color:#f7154b;
+    }
+
+    .social li:nth-child(4):hover a{
+        background-color:#e61075;
+    }
+
+    .social li:nth-child(5):hover a{
+        background-color:#0cc449;
+    }
+
+    .social li:nth-child(6):hover a{
+        background-color:#fdad00;
+    }
+
+.show {
+    position: absolute;
+    cursor: pointer;
+    right: 0px;
+    top: 0px;
+    display: block;
+    width: 30px;
+    height: 30px;
+    border: none;
+    background-color:rgba(16, 167, 155, 1);
+}
+    .show:before, .show:after {
+        content: "";
+        position: absolute;
+        background-color: rgba(255, 255, 255, 1);
+    }
+
+    .show:before {
+        width: 16px;
+        height: 2px;
+        left: 7px;
+        top: 14px;
+    }
+
+.hide:after {
+    display:none;
+}
+
+/*
+ * TOP
+ */
+
+.top {
+    background-color: 
+}
+
+
+
+
+
+

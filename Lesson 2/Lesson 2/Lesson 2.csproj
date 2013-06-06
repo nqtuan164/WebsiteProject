@@ -57,6 +57,31 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="css\style.css" />
+    <Content Include="img\1.jpg" />
+    <Content Include="img\10.jpg" />
+    <Content Include="img\11.jpg" />
+    <Content Include="img\12.jpg" />
+    <Content Include="img\2.jpg" />
+    <Content Include="img\3.jpg" />
+    <Content Include="img\4.jpg" />
+    <Content Include="img\5.jpg" />
+    <Content Include="img\6.jpg" />
+    <Content Include="img\7.jpg" />
+    <Content Include="img\8.jpg" />
+    <Content Include="img\9.jpg" />
+    <Content Include="img\dribbble.png" />
+    <Content Include="img\facebook.png" />
+    <Content Include="img\flickr.png" />
+    <Content Include="img\loading-2.gif" />
+    <Content Include="img\loading.gif" />
+    <Content Include="img\logo.png" />
+    <Content Include="img\pinterest.png" />
+    <Content Include="img\quote.png" />
+    <Content Include="img\rss.png" />
+    <Content Include="img\twitter.png" />
+    <Content Include="img\x.png" />
+    <Content Include="index.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -69,6 +94,9 @@
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="js\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
