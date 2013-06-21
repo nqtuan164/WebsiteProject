@@ -67,9 +67,11 @@
     <Content Include="img\4.jpg" />
     <Content Include="img\5.jpg" />
     <Content Include="img\6.jpg" />
+    <Content Include="img\bg.jpg" />
     <Content Include="img\7.jpg" />
     <Content Include="img\8.jpg" />
     <Content Include="img\9.jpg" />
+    <Content Include="img\cong.png" />
     <Content Include="img\dribbble.png" />
     <Content Include="img\facebook.png" />
     <Content Include="img\flickr.png" />
@@ -79,9 +81,16 @@
     <Content Include="img\pinterest.png" />
     <Content Include="img\quote.png" />
     <Content Include="img\rss.png" />
+    <Content Include="img\s1.png" />
+    <Content Include="img\s2.png" />
+    <Content Include="img\s3.png" />
+    <Content Include="img\tru.png" />
     <Content Include="img\twitter.png" />
     <Content Include="img\x.png" />
     <Content Include="index.html" />
+    <Content Include="js\jquery.js" />
+    <Content Include="js\jqueryEasing.js" />
+    <Content Include="js\script.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -95,9 +104,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="js\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
