@@ -5,13 +5,28 @@
     <title>AngularJS</title>
 
     <script src="js/angularjs.js" type="text/javascript" ></script>
+    <script type="text/javascript" src="js/underscore.js"></script>
     <script src="js/script.js" type="text/javascript" ></script>
+
     <link href="css/style.css" rel="stylesheet" type="text/css" />
 
 </head>
 <body>
-    <div ng-controller="">
+    <div ng-controller="TodoCtrl">
+        <h2>Total todos: {{ getTotalTodos() }}</h2>
+        <ul>
+            <li ng-repeat="todo in todos">
+                <input type="checkbox" ng-model="todo.done">
+                <span class="done-{{ todo.done }}" >{{ todo.text }}</span>
+            </li>
+        </ul>
 
+        <form class="form-horizontal" >
+            <input type="text" ng-model="formTodoText" ng-model-instant>
+            <button class="btn" ng-click="addTodo()">Add</button>
+        </form>
+
+        <button class="btn-large" ng-click="clearCompleted()">Clear Completed</button>
     </div>
 </body>
 </html>
